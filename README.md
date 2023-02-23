@@ -59,8 +59,7 @@ instructions.
 If you receive this error:
 ```bash
 cd cdktf.out/stacks/terraform
-terraform providers lock -platform=darwin_amd64
-terraform providers lock -platform=windows_amd64
-terraform providers lock -platform=linux_amd64
+rm .terraform.lock.hcl
+terraform init
 cd -
 ```
