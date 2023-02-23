@@ -15,8 +15,8 @@ class TPCDSStack(TerraformStack):
         super().__init__(scope, id)
 
         # Setup the providers
-        AnamlProvider(self, "anaml", host=os.environ.get("ANAML_HOST"), username=os.environ.get("ANAML_APIKEY"), password=os.environ.get("ANAML_SECRET"), branch="cdktf_tpcds")
-        AnamlOperationsProvider(self, "anaml-operations", host=os.environ.get("ANAML_HOST"), username=os.environ.get("ANAML_APIKEY"), password=os.environ.get("ANAML_SECRET"))
+        AnamlProvider(self, "anaml", host=os.environ.get("ANAML_URL"), username=os.environ.get("ANAML_APIKEY"), password=os.environ.get("ANAML_SECRET"), branch="cdktf_tpcds")
+        AnamlOperationsProvider(self, "anaml-operations", host=os.environ.get("ANAML_URL"), username=os.environ.get("ANAML_APIKEY"), password=os.environ.get("ANAML_SECRET"))
 
         # Get the Source as a Data Construct (assumes the source already exists)
         tpcds_source = DataAnamlOperationsSource(self, "tpcds_source", name="tpcds_scale_1") 
