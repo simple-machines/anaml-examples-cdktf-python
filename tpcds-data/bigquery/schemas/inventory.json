@@ -1,0 +1,22 @@
+[
+    {
+        "name": "inv_date_sk",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "inv_item_sk",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "inv_warehouse_sk",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "inv_quantity_on_hand",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    }
+]

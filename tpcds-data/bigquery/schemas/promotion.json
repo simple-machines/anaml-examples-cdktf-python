@@ -1,0 +1,98 @@
+[
+    {
+        "name": "p_promo_sk",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "p_promo_id",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "p_start_date_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_end_date_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_item_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_cost",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_response_target",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_promo_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_dmail",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_email",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_catalog",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_tv",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_radio",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_press",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_event",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_demo",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_channel_details",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_purpose",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "p_discount_active",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
+

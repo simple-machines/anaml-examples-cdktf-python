@@ -1,0 +1,1 @@
+[{"name":"dv_version","type":"STRING","mode":"NULLABLE"},{"name":"dv_create_date","type":"DATE","mode":"NULLABLE"},{"name":"dv_create_time","type":"TIME","mode":"NULLABLE"},{"name":"dv_cmdline_args","type":"STRING","mode":"NULLABLE"}]

@@ -48,7 +48,7 @@
 #include "validate.h"
 #include "parallel.h"
 
-struct CATALOG_PAGE_TBL g_w_catalog_page;
+struct CATALOG_PAGE_TBL g_s_catalog_page;
 
 int
 mk_s_catalog_page(void *pDest, ds_key_t kRow)
@@ -79,7 +79,7 @@ pr_s_catalog_page(void *pSrc)
 	struct CATALOG_PAGE_TBL *r;
 	
 	if (pSrc == NULL)
-		r = &g_w_catalog_page;
+		r = &g_s_catalog_page;
 	else
 		r = pSrc;
 	
@@ -117,7 +117,7 @@ ld_s_catalog_page(void *pSrc)
 	struct CATALOG_PAGE_TBL *r;
 		
 	if (pSrc == NULL)
-		r = &g_w_catalog_page;
+		r = &g_s_catalog_page;
 	else
 		r = pSrc;
 	

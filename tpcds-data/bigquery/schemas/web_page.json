@@ -1,0 +1,72 @@
+[
+    {
+        "name": "wp_web_page_sk",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "wp_web_page_id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_rec_start_date",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "hd_dwp_rec_end_dateep_count",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_creation_date_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_access_date_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_autogen_flag",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_customer_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_url",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_char_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_link_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_image_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "wp_max_ad_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    }
+]

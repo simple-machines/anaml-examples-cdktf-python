@@ -1,0 +1,32 @@
+[
+    {
+        "name": "sm_ship_mode_sk",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "sm_ship_mode_id",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "sm_type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sm_code",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sm_carrier",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sm_contract",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]

@@ -48,7 +48,7 @@
 #include "permute.h"
 #include "scaling.h"
 
-struct W_WAREHOUSE_TBL g_w_warehouse;
+struct W_WAREHOUSE_TBL g_s_warehouse;
 
 /*
 * Routine: 
@@ -103,7 +103,7 @@ pr_s_warehouse(void *pSrc)
 	struct W_WAREHOUSE_TBL *r;
 
    if (pSrc == NULL)
-		r = &g_w_warehouse;
+		r = &g_s_warehouse;
 	else
 		r = pSrc;
 	
@@ -136,7 +136,7 @@ ld_s_warehouse(void *pSrc)
 	struct W_WAREHOUSE_TBL *r;
 		
 	if (pSrc == NULL)
-		r = &g_w_warehouse;
+		r = &g_s_warehouse;
 	else
 		r = pSrc;
 	

@@ -1,0 +1,1 @@
+[{"name":"ib_income_band_sk","type":"INTEGER","mode":"REQUIRED"},{"name":"ib_lower_bound","type":"INTEGER","mode":"NULLABLE"},{"name":"ib_upper_bound","type":"INTEGER","mode":"NULLABLE"}]

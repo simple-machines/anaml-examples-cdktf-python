@@ -1,0 +1,1 @@
+[{"name":"r_reason_sk","type":"INTEGER","mode":"REQUIRED"},{"name":"r_reason_id","type":"STRING","mode":"REQUIRED"},{"name":"r_reason_desc","type":"STRING","mode":"NULLABLE"}]

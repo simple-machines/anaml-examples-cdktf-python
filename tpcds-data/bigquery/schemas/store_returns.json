@@ -1,0 +1,102 @@
+[
+    {
+        "name": "sr_returned_date_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_return_time_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_item_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_customer_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_cdemo_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_hdemo_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_addr_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_store_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_reason_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_ticket_number",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_return_quantity",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_return_amt",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_return_tax",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_return_amt_inc_tax",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_fee",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_return_ship_cost",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_refunded_cash",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_reversed_charge",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_store_credit",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sr_net_loss",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }
+]

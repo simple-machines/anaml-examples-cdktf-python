@@ -1,0 +1,27 @@
+[
+    {
+        "name": "hd_demo_sk",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "hd_income_band_sk",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "hd_buy_potential",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "hd_dep_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "hd_vehicle_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    }
+]

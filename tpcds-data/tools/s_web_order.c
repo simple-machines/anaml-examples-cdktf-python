@@ -51,7 +51,7 @@
 #include "parallel.h"
 
 struct S_WEB_ORDER_TBL g_s_web_order;
-struct S_WEB_ORDER_LINEITEM_TBL g_s_web_order_lineitem;
+struct S_WEB_ORDER_LINEITEM_TBL g_s_web_order_lineitem_wo;
 struct S_WEB_RETURNS_TBL g_s_web_return;
 int nItemIndex = -1;
 
@@ -65,9 +65,9 @@ mk_detail(int i, int bPrint)
 {
       int nTemp;
 
-		mk_s_web_order_lineitem(&g_s_web_order_lineitem, i);
+		mk_s_web_order_lineitem(&g_s_web_order_lineitem_wo, i);
       if (bPrint)
-         pr_s_web_order_lineitem(&g_s_web_order_lineitem);
+         pr_s_web_order_lineitem(&g_s_web_order_lineitem_wo);
 		genrand_integer(&nTemp, DIST_UNIFORM, 0, 99, 0, S_WLIN_IS_RETURNED);
 		if (nTemp < WR_RETURN_PCT)
 		{

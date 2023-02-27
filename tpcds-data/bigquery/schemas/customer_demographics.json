@@ -1,0 +1,47 @@
+[
+    {
+        "name": "cd_demo_sk",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "cd_gender",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cd_marital_status",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cd_education_status",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cd_purchase_estimate",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cd_credit_rating",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cd_dep_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cd_dep_employed_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cd_dep_college_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    }
+]
