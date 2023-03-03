@@ -3,7 +3,7 @@ BQ_LOCATION=australia-southeast1
 BQ_PROJECT=<YOUR BQ PROJECT>
 BQ_DATASET=tpcds_scale_1
 
-bq mk --location=$BQ_LOCATION $BQ_DATASET
+bq mk --location=$BQ_LOCATION --project_id $BQ_PROJECT $BQ_DATASET
 bq mk --schema ./schemas/dbgen_version.json $BQ_PROJECT:${BQ_DATASET}.dbgen_version
 bq mk --schema ./schemas/customer_address.json $BQ_PROJECT:${BQ_DATASET}.customer_address
 bq mk --schema ./schemas/customer_demographics.json $BQ_PROJECT:${BQ_DATASET}.customer_demographics
